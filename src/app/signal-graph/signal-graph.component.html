@@ -1,0 +1,10 @@
+
+@if (signals?.length) {
+<highcharts-chart 
+  [Highcharts]="Highcharts"
+  [options]="chartOptions"
+  [(update)]="updateChart"
+  style="width: 100%; height: 400px; display: block; border:1px red solid;"
+></highcharts-chart>
+
+}
